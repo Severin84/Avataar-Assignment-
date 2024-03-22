@@ -1,0 +1,62 @@
+
+.tagsBackGround{
+    padding:0;
+    margin:0;
+    background-color: rgb(28, 26, 26);
+    width:100vw;
+    height: 4rem;
+    margin-top: -4rem;
+}
+.tags{
+    margin-left: 15rem;
+    display:flex;
+    overflow:hidden;
+    width:75%;
+    position:fixed;
+    top:0;
+    margin-right:10rem;
+}
+
+@media only screen and (max-width: 950px) {
+    .tags {
+      gap:2rem;  
+      width:70%;  
+
+      /* padding-left: 2rem; */
+      /* margin-left: 2rem;
+      margin-right: 2rem;  */
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .tags {
+      gap:2rem; 
+      width:60%; 
+       
+      /* padding-left: 2rem; */
+      /* margin-left: 2rem;
+      margin-right: 2rem; */
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .tags {
+      gap:2rem;
+      padding-left: 2rem;  
+      width:50%; 
+      /* padding-left: 2rem; */
+      /* margin-left: 2rem;  */
+      /* margin-right: 2rem; */
+    }
+    
+  }
+  @media only screen and (max-width: 400px) {
+    .tags {
+      gap:2rem;
+      padding-left: 2rem;
+      width:35%; 
+      /* padding-left: 2rem; */
+      /* margin-left: 2rem;  */
+      /* margin-right: 2rem;  */
+    }
+  }

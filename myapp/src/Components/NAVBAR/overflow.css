@@ -1,0 +1,95 @@
+.search{
+    margin-top:1rem;
+    right:0;
+    width:10rem;
+    border: none;
+    border-bottom: 1px solid;
+    background: rgb(28, 26, 26);
+    border-bottom: 1px solid;
+    margin-left: 12rem;
+    color:white;
+    height:1.5rem;
+    z-index: 1;
+}
+.More{
+    color:white;
+    margin-top:-0.5rem;
+    margin-right:18rem;
+    cursor: pointer;
+}
+.More:hover{
+  color: #83CEF9;
+}
+.More_contain:hover{
+  color: black;
+}
+.More_Child:hover{
+  background-color: rgb(160, 160, 160);
+  cursor: pointer;
+  
+}
+@media only screen and (max-width: 1290px) {
+    .search {
+      display:none;
+    }
+    .logo{
+      margin-right: 3rem;
+    }
+  
+  }
+
+ @media only screen and (max-width: 1290px) {
+    .More {
+      position: relative;
+      right:0;
+      margin-right: -5rem;
+      cursor: pointer;
+    }
+    .logo{
+      margin-right: 3rem;
+    } 
+}
+@media only screen and (max-width: 950px) {
+  .More {
+      position: relative;
+      right:0;
+      margin-right: -2.1rem;
+      cursor: pointer;
+  }
+  .Home{
+    padding-left: 3rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .More {
+    position: relative;
+      right:0;
+      margin-right: -2.1rem;
+      cursor: pointer;
+  }
+  .Home{
+    padding-left: 3rem;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .More {
+    position: relative;
+      right:0;
+      margin-right: -2.1rem;
+      cursor: pointer;
+  }
+  .Home{
+    padding-left: 3rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .More {
+    position: relative;
+      right:0;
+      margin-right: -2.1rem;
+      cursor: pointer;
+  }
+  .Home{
+    padding-left: 3rem;
+  }
+}

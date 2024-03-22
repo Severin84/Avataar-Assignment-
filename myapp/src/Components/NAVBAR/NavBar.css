@@ -1,0 +1,11 @@
+.NavTags{
+    margin-left:3rem;
+    display:flex;
+    flex:0 0 auto;
+    color:white
+}
+
+.NavTags:hover{
+  color:  #83CEF9;
+}
+
